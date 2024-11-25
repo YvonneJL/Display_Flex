@@ -1,0 +1,121 @@
+@font-face {
+    font-family: Raleway_Regular;
+    src: url("../font/Raleway-Regular.ttf")
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 10px;
+}
+
+nav {
+    border-bottom: 1px solid grey;
+    height: 7.6rem;
+}
+
+.ersteFlexbox {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.zweiteFlexbox {
+    display: flex;
+    align-items: center;
+    gap: 0 4rem;
+}
+
+.logo {
+    font-family: Raleway_Regular;
+    font-size: 2rem;
+    color: #666;
+}
+
+li {
+    list-style: none;
+    font-family: Raleway_Regular;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+a:hover {
+    color: #337ab7;
+}
+
+.logo:hover {
+    color: #333;
+}
+
+main section:nth-of-type(1) {
+    background-image: url("../img/Wasser.png");
+    width: 151.2rem;
+    height: 100.9rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.flexboxHintergrund {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3.6rem 0;
+}
+
+h1, h2 {
+    font-family: Raleway_Regular;
+    color: white;
+}
+
+h1 {
+    font-size: 5rem;
+    font-weight: lighter;
+}
+
+h2 {
+    font-size: 1.4rem;
+}
+
+article {
+    display: flex;
+    gap: 0 0.8rem;
+}
+
+.buttonEins, .buttonZwei {
+    width: 20rem;
+    height: 5.4rem;
+    background-color: #745CF9;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: Raleway_Regular;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.buttonZwei {
+    background: none;
+    border: 0.2rem solid white;
+}
+
+.buttonEins:hover {
+    background-color: #5949b3;
+    color: white;
+}
+
+.buttonZwei:hover {
+    background-color: white;
+    color: black;
+}
