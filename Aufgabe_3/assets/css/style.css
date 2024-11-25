@@ -14,8 +14,8 @@ html {
 }
 
 nav {
-    border-bottom: 1px solid grey;
     height: 7.6rem;
+    width: 151.2rem;
 }
 
 .ersteFlexbox {
@@ -72,21 +72,20 @@ main section:nth-of-type(1) {
     gap: 3.6rem 0;
 }
 
-h1, h2 {
+section:nth-of-type(1) h1 {
+    font-size: 5rem;
+    font-weight: lighter;
     font-family: Raleway_Regular;
     color: white;
 }
 
-h1 {
-    font-size: 5rem;
-    font-weight: lighter;
-}
-
-h2 {
+section:nth-of-type(1) h2 {
     font-size: 1.4rem;
+    font-family: Raleway_Regular;
+    color: white;
 }
 
-article {
+section:nth-of-type(1) article {
     display: flex;
     gap: 0 0.8rem;
 }
@@ -118,4 +117,59 @@ article {
 .buttonZwei:hover {
     background-color: white;
     color: black;
+}
+
+/* ! Ab hier just for fun */
+
+section:nth-of-type(2) {
+    height: 64.417rem;
+    width: 151.2rem;
+}
+
+section:nth-of-type(2) {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+section:nth-of-type(2) article {
+    width: 64.417rem;
+    height: 33rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+h2 {
+    font-size: 3rem;
+    font-family: Raleway_Regular;
+}
+
+p {
+    font-size: 1.4rem;
+    font-family: Raleway_Regular;
+    width: 35.6rem;
+    line-height: 2.4rem;
+}
+
+.buttonDrei {
+    width: 20rem;
+    height: 5.4rem;
+    background-color: #745CF9;
+    border: none;
+    color: white;
+    font-family: Raleway_Regular;
+    font-size: 1.2rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonDrei:hover {
+    background-color: #5949b3;
+    color: white;
 }
